@@ -1,7 +1,7 @@
 import React from "react";
-import Blog from "../Components/Article";
+ 
 
-export const BlogPost = () => {
+   const BlogPost = () => {
   return (
     <div className="bg-gray-50 min-h-screen flex justify-center items-center px-4 py-10">
         <article className="max-w-3xl bg-white p-8 shadow-md rounded-lg ">
@@ -40,3 +40,5 @@ export const BlogPost = () => {
         </div>
       );
     };
+
+    export default BlogPost;
