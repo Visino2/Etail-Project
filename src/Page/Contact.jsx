@@ -2,12 +2,15 @@ import React from "react";
 
 export const Contact= () => {
   return (
-    <div className='bg-gray-50 min-h-screen flex justify-center items-center px-4'>
-      <div className='bg-white rounded-2xl shadow-lg w-full max-w-6xl lg:flex'>
+    <div className='bg-gray-50 min-h-screen flex justify-center items-center px-4 '>
+      <div className='bg-white rounded-4xl shadow-lg w-full max-w-6xl lg:flex '>
       
         <div className='w-full lg:w-1/3 bg-white p-8 space-y-8'>
           <div>
-            <h3 className='text-lg font-bold mb-2'>Chat to us</h3>
+            <span  className="flex gap-2">
+              <img src="svg1.svg" alt=""  className="w-6 h-6"/>
+              <h3 className='text-lg font-bold mb-2'>Chat to us</h3>
+            </span>
             <p className='text-gray-600'>our friendly team is here to help.</p>
             <p className='text-gray-800'>victor@gmail.com</p>
           </div>
@@ -33,8 +36,8 @@ export const Contact= () => {
         </div>
   
         <div className='w-full lg:w-2/3 p-8 bg-lime-300 flex flex-col justify-center'>
-          <h2 className='text-3xl font-bold mb-2'>
-            Got ideas? we've got skills. let's team up.
+          <h2 className='text-3xl font-bold mb-2 w-85'>
+            Got ideas? we've got the skills. let's team up.
           </h2>
           <p className='text-gray-800 mb-6'>
             Tell us more about yourself and what you've got in mind.

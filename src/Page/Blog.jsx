@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const articles = [
     {
         id: 1,
-        image: '/images/image1.jpg',
+        image: '/image1.jpg',
         author: 'Sam Pitak',
         date: '20, Apr 2024',
         title: 'Beyond Transactions: Unlocking the Full Potential of POS Systems',
@@ -12,7 +12,7 @@ const articles = [
     },
     {
         id: 2,
-        image: '/images/image2.jpg',
+        image: '/image2.jpg',
         author: 'Yasmin Sari',
         date: '20, Apr 2024',
         title: 'From Brick-and-Mortar to Online Storefront: Integrating POS Systems',
@@ -20,13 +20,14 @@ const articles = [
     },
     {
         id: 3,
-        image: '/images/image3.jpg',
+        image: '/image3.jpg',
         author: 'Ambon Fanda',
         date: '20, Apr 2024',
         title: 'Security First: Protecting Your Business with Advanced POS Solutions',
         excerpt: 'One of the primary functions of a POS system is processing transactions and handle sensitive customer data...',
     },
 ];
+
 const Blog = () => {
     return (
         <div className="bg-white py-16 px-4 md:px-10 lg:px-20">
@@ -45,7 +46,7 @@ const Blog = () => {
                             </div>
                         <h3 className="text-lg font-bold text-gray-900">{article.title}</h3>
                         <p className="text-gray-700 text-sm">{article.excerpt}</p>
-                        <Link to={`/blog/${article.id}`} className="text-indigo-600 hover:underline inline-flex items-center text-sm">
+                        <Link to={`/blogPost/${article.id}`} className="text-indigo-600 hover:underline inline-flex items-center text-sm">
                             Read More <span className="ml-1">→</span>
                         </Link>
                         </div>

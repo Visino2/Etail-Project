@@ -14,7 +14,7 @@ import React from "react";
             </p>
 
             <div className="flex items-center mb-8 "> 
-                <img src="https://via.placeholder.com/40" alt="Author" className="rounded-full mr-3 w-10 h-10" />
+                <img src="images/photo1.jpg" alt="profile" className="rounded-full mr-3 w-10 h-10" />
                 <div>
                     <p className="text-gray-800 font-bold">John Griebel</p>
                     <p className="text-gray-600">Self-taught Designer & Maker</p>
